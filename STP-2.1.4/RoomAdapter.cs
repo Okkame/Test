@@ -13,7 +13,6 @@ namespace STP_2._1._4
             Room temp = new Room();
             temp.people = r.people;
             temp.area = r.area+ r.additionalArea+temp.area;
-
             return temp.SizeForOnePeople();
         }
     }

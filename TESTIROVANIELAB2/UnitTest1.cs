@@ -52,8 +52,8 @@ namespace TESTIROVANIELAB2
         public void test6()
         {
             ProRoom proroom = new ProRoom();
-            proroom.Init(60, 3, 0);
-            Assert.Equal(20, proroom.SizeForOnePeople());
+            proroom.Init(60, 2, 0);
+            Assert.Equal(30, proroom.SizeForOnePeople());
         }
 
         [Fact]
