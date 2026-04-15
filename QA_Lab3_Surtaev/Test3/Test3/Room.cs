@@ -56,7 +56,7 @@ namespace Test3
             Console.WriteLine($"Площадь: {area}, Количество человек: {people}");
         }
 
-        public double SizeForOnePeople()
+        public virtual double SizeForOnePeople()
         {
             return people == 0 ? 0 : area / people;
         }
