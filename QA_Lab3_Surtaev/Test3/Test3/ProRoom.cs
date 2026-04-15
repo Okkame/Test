@@ -26,7 +26,7 @@ namespace Test3
 
         }
 
-        public double SizeForOnePeople()
+        public override double SizeForOnePeople()
         {
             return people == 0 ? 0 : (area + additionalArea) / people;
         }
